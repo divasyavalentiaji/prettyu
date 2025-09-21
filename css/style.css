@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&family=Kanit:wght@300&family=Poppins&family=Tajawal:wght@200;400&family=Teko:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@500&family=Kanit:wght@300&family=Poppins&family=Tajawal:wght@200;400&family=Teko:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Asap&family=Bitter:wght@800&family=Catamaran:wght@500&family=Kanit:wght@300&family=Poppins&family=Tajawal:wght@200;400&family=Teko:wght@400;500&display=swap');
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 994px) {
+.form-control {
+    width: 400px;
+}
+}
+
+.nav-link {
+    color: black;
+}
+
+.banner {
+    background-image: url('../assets/sky.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.banner-title {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive;
+    font-style: bold;
+}
+
+.banner-text {
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+    font-size: 17px;
+}
+
+.banner-img-fluid{
+    max-width: 100%; 
+    display:block; 
+    height: auto;
+}
+
+.bestseller {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    margin-top: -5px;
+    margin-bottom: 2px;
+}
+
+.card { 
+    margin-bottom: 15px;
+}
+
+.valuepack {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.jaminan-text {
+    font-size: 13px;
+    text-align: justify;
+}
+
+.jaminan-img-fluid {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 20px;
+}
+
+.footer-col { 
+    width: 25%;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: black;
+}
+
+.payment-img-fluid {
+    max-width: 100%; 
+    display:block; 
+    height: auto;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links a {
+    height: 40px;
+    width: 40px;
+    background: red;
+    margin: 0 6px;
+    border-radius: 30%;
+    text-align: center;
+    line-height: 40px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.social-links a:nth-child(1) {
+    background: #4267B2;
+}
+
+.social-links a:nth-child(2) {
+    background: #E1306C;
+}
+
+.social-links a:nth-child(3) {
+    background: #AFAFB6;
+}
+
+.social-links a:nth-child(4) {
+    background: #FF0000;
+}
+
+.social-links a:nth-child(5) {
+    background: #1DA1F2;
+}
+
+
